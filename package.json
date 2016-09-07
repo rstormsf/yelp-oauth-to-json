@@ -1,0 +1,11 @@
+{
+  "name": "yelpaws",
+  "version": "1.0.0",
+  "description": "Node.js code to query Yelp API",
+  "main": "index.js",
+  "author": "Roman Storm",
+  "license": "MIT",
+  "devDependencies": {
+    "axios": "^0.14.0"
+  }
+}
