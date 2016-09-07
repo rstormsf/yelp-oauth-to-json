@@ -8,33 +8,33 @@ I wanted to learn that tech and here is how I use it:
 
 1. Download and Install Apex:
 
-`curl https://raw.githubusercontent.com/apex/apex/master/install.sh | sh`
+  `curl https://raw.githubusercontent.com/apex/apex/master/install.sh | sh`
 
 2. Download and Install AWS-CLI `brew install awscli` - sorry windows users, just use the browser :-)
 
-2.1. Create IAM user in AWS Console and give permissions to IAM and Lambda (
+3. Create IAM user in AWS Console and give permissions to IAM and Lambda (
 Apex will need to create a IAM role and be able to execute/deploy to Lambda).
 Caution: If you give it FUllAcccess Policy to IAM and Lambda make sure, you remove it afterwards to avoid any security problems.
 
-3. Run `aws configure`
+4. Run `aws configure`
 setup your user with AWS_ACCESS_KEY & AWS_SECRET_KEY.
 I used `us-east-1`
 
-4. Run `apex init`
+5. Run `apex init`
 
-5. Make sure you can deploy. Run `apex deploy`
+6. Make sure you can deploy. Run `apex deploy`
 
-6. If it is successful, you can run `apex invoke hello`
+7. If it is successful, you can run `apex invoke hello`
 
-7. Now, do `git clone ` this repo into `functions/hello` folder
+8. Now, do `git clone ` this repo into `functions/hello` folder
 
-8. `cd functions/hello `
+9. `cd functions/hello `
 
-9. `npm install`
+10. `npm install`
 
-10. `cd ../..`
+11. `cd ../..`
 
-11. apex deploy
+12. apex deploy
 
 ------------------
 
