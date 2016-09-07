@@ -49,3 +49,6 @@ you should get JSON response from Yelp API
 Step #2 Integrate with AWS API Gateway: 
 
 .....
+Business URL should be in format: http://api.yelp.com/v2/business/BUSINESS_ID
+Your business id looks something like aurora-construction-and-design-sarasota
+https://tpbqwidt0h.execute-api.us-east-1.amazonaws.com/prod/get-reviews?business_url=BUSINESS_URL&consumer_key=CONSUMER_KEY&consumer_secret=CONSUMER_SECRET&oauth_token=OAUTH_TOKEN&oauth_secret=OAUTH_SECRET
